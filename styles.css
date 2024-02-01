@@ -49,7 +49,6 @@ body {
 }
 
 footer{
-    margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -92,15 +91,15 @@ footer figure img{
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 425px) {
     #recuerdos {
-        width: 450px;
+        width: 420px;
     }
     footer {
-        width: 450px;
+        width: 420px;
     }
     .fichas {
-        height: 200px;
+        height: 180px;
     }
     .fichas figure{
         gap: 2px;
@@ -108,18 +107,37 @@ footer figure img{
     }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 375px) {
     #recuerdos {
         width: 350px;
     }
     footer {
         width: 350px;
+        padding: 10px;
     }
     .fichas {
-        height: 170px;
+        height: 165px;
+        margin: 10px;
     }
     .fichas figure{
-        gap: 2px;
+        gap: 6px;
         font-size: 8px;
+    }
+}
+
+@media (max-width: 320px) {
+    #recuerdos {
+        width: 300px;
+    }
+    footer {
+        width: 300px;
+        padding: 10px;
+    }
+    .fichas {
+        height: 140px;
+        margin: 10px;
+    }
+    .fichas figure{
+        font-size: 6px;
     }
 }
