@@ -28,6 +28,7 @@ body {
     border-radius: 20px;
     margin: 10px;
     background-color: #FBFADA;
+    box-shadow: 4.5px 4.5px #fbfada52;
 }
 
 .fichas figure{
@@ -73,6 +74,7 @@ footer figure {
 footer figure img{
     width: 100%;
     border-radius: 20px;
+    box-shadow: 4.5px 4.5px #fbfada52;
 }
 
 @media (max-width: 845px) {
@@ -91,7 +93,7 @@ footer figure img{
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 630px) {
     #recuerdos {
         width: 420px;
     }
@@ -107,7 +109,7 @@ footer figure img{
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
     #recuerdos {
         width: 350px;
     }
@@ -125,7 +127,7 @@ footer figure img{
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     #recuerdos {
         width: 300px;
     }
